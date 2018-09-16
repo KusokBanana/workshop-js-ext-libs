@@ -1,0 +1,31 @@
+{
+  "name": "workshop-js-ext-libs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "bottlejs": "^1.7.1",
+    "express": "^4.16.3",
+    "yahoo-weather": "^2.2.2"
+  },
+  "devDependencies": {
+    "node-fetch": "^2.2.0",
+    "node-geocoder": "^3.22.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KusokBanana/workshop-js-ext-libs.git"
+  },
+  "author": "kusokbanana <svyat.dema@yandex.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KusokBanana/workshop-js-ext-libs/issues"
+  },
+  "homepage": "https://github.com/KusokBanana/workshop-js-ext-libs#readme"
+}
